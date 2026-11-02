@@ -21,7 +21,8 @@ self.onmessage = async (event) => {
       self.postMessage({ type: 'STATUS_UPDATE', data: 'Loading Whisper model...' });
       transcriber = await pipeline(
         'automatic-speech-recognition',
-        'Xenova/whisper-base.en',
+        '
+		Xenova/whisper-base.en',
         {
           device: 'wasm',
           progress_callback: (p) => {
