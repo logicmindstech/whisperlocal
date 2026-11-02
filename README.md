@@ -1,5 +1,7 @@
 # WhisperLocal
 
+[![DOI](https://zenodo.org/badge/1442503754.svg)](https://doi.org/10.5281/zenodo.23876605)
+
 A browser extension that transcribes speech to text **locally in your browser** using a Whisper model. Audio is processed on your own device, so nothing is sent to an outside server for transcription.
 
 ## Features
