@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "WhisperLocal"
+abstract: "A browser extension that transcribes speech to text locally in the browser using a Whisper model, powered by Transformers.js and ONNX Runtime (WebAssembly)."
+type: software
+authors:
+  - family-names: "Arrevillaga"
+    given-names: "Marvin"
+    orcid: "https://orcid.org/0009-0003-8558-5473"
+    affiliation: "LogicMinds Technologies, Inc."
+version: "1.0.0"
+date-released: "2026-11-02"
+license: MIT
+repository-code: "https://github.com/logicmindstech/whisperlocal"
+keywords:
+  - speech-to-text
+  - whisper
+  - transcription
+  - browser-extension
+  - transformers.js
